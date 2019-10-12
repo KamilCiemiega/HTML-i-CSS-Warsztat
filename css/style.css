@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1626px;
+    margin: 0 auto;
+}
+.main-nav{
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between; 
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+nav{
+    width: 600px;
+}
+ul li{
+    display: inline;
+    padding: 5%;
+    font-size: 11px;
+}
+li:hover::after{
+    transform: translate(-50px, 20px);
+    content: "";
+    height: 3px;
+    width: 60px;
+    background:#08A6E4;
+    display: inline-block;
+    position: absolute;
+}
+li:hover{
+    cursor: pointer;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10%;
+    color: #08A6E4;
+    font-size: 32px;
+}
+.banner{
+    background-image: url("../images/Background.png");
+    background-size: contain;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner--text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    margin-bottom: 30%;
+}
+h1{
+    font-size: 49px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5%;
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5%;
+}
+.first{
+    font-size: 16px;
+    width: 440px;
+    height: 67px;
+    background-color: #08A6E4;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    border: 0;
+    color: white;
+}
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 530px;
+    width: 100%;
+}
+.sales--platform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sales h2{
+    font-size: 36px;
+    color: black;
+    padding-left: 0;
+}
+.sales--platform--first{
+    position: relative;
+    height: 140px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15% 10% 10% 0;
+}
+.sales--platform--first img{
+    transform: translate(22px, -30px);
+}
+.sales--platform--first::before{
+    position: absolute;
+    top: -30px;
+    left: 28px;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: #FB3B64;
+    border-radius: 50px;
+}
+h3{
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+letter-spacing: 8px;
+}
+.sales--platform--first p{
+font-size: 15px;
+margin: 20px;
+width: 100%;
+color: #A5A5A5;
+margin-left: 35%;
+}
+.sales--platform--second{
+    position: relative;
+    height: 140px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15% 10% 10% 10%;
+}
+.sales--platform--second img{
+    transform: translate(22px, -25px);
+}
+.sales--platform--second::before{
+    position: absolute;
+    top: -30px;
+    left: 28px;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: #07ACE6;
+    border-radius: 50px;
+}
+.sales--platform--second p{
+font-size: 15px;
+margin-top: 10px;
+width: 100%;
+color: #A5A5A5;
+margin-left: 25%;
+}
+.sales--platform--third{
+    position: relative;
+    height: 140px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15% 0 10% 10%;
+}
+.sales--platform--third img{
+    transform: translate(22px, -25px);
+}
+.sales--platform--third::before{
+    position: absolute;
+    top: -30px;
+    left: 28px;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: #55DFB4;
+    border-radius: 50px;
+}
+.sales--platform--third p{
+font-size: 15px;
+margin-top: 10px;
+width: 100%;
+color: #A5A5A5;
+margin-left: 25%;
+}
