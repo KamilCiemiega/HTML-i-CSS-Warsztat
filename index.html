@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/552b0e12eb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -79,17 +80,17 @@
                 </article>
             </article>
             <article class="last container">
-                    <article class="last-text">
-                        <h4>Increase recognition <br>your brand !</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley</p>
-                    </article>
-                    <img src="../Warsztaty01/images/Trumpet.png">
+                <article class="last-text">
+                    <h4>Increase recognition <br>your brand !</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley</p>
                 </article>
+                <img src="../Warsztaty01/images/Trumpet.png">
+            </article>
         </article>
-        
+
     </section>
     <section class="pricing">
         <article class="pricing--main container">
@@ -98,12 +99,195 @@
                 <article class="box-basic">
                     <h4>Basic</h4>
                     <h6>$0</h6>
-                    <p>100 MB HDD</p>
-                    <p></p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        100 MB HDD
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        1 subdomain
+
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        2 E-mails
+                    </p>
+                    <p>
+                        <i class="fas fa-times"></i>
+                        Two years license
+                    </p>
+                    <p>
+                        <i class="fas fa-times"></i>
+                        Full support
+                    </p>
+                    <button>Begin</button>
                 </article>
+
+                <article class="box-professional">
+                    <h4>Professional</h4>
+                    <h6>$25</h6>
+                    <h7>Limited offer</h7>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        500 MB HDD
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        2 subdomain
+
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        5 E-mails
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        One years license
+                    </p>
+                    <p>
+                        <i class="fas fa-times"></i>
+                        Full support
+                    </p>
+                    <button>Begin</button>
+                </article>
+
+                <article class="box-premium">
+                    <h4>Premium</h4>
+                    <h6>$60</h6>
+                    <h7>Limited offer</h7>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        2GB HDD
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        5 subdomain
+
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        20 E-mails
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        Two years license
+                    </p>
+                    <p>
+                        <i class="far fa-check-square"></i>
+                        Full support
+                    </p>
+                    <button>Begin</button>
+                </article>
+
             </article>
         </article>
     </section>
+    <section>
+        <article class="calculator">
+            <form action="send" class="form container" method="POST">
+
+                <div class="form-container">
+                    <h1>Calculate how much you’ll pay</h1>
+                    <div class="form-row">
+                        <input type="number" id="product" placeholder="Products quantity" />
+                    </div>
+                    <div class="form-row">
+                        <input type="number" id="estimated" placeholder="Estimated orders in mounth" />
+                    </div>
+                    <div class="form-row text">
+                        <input type="text" id="package" placeholder="Choose package">
+                        <i class="fas fa-arrow-circle-up"></i>
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </div>
+                    <div class="dropDown">
+                        <p>Basic</p>
+                        <p>Premium</p>
+                        <p>Professional</p>
+
+                    </div>
+                    <div class="form-checkbox">
+                        <div class="form-checbox-first">
+                            <input type="checkbox" id="myCheck" >
+                            <span class="checkmark"></span>
+                            <label for="accounting">Accounting
+                            </label>
+                        </div>
+                        <div class="form-checkbox">
+                            <div class="form-checbox-second">
+                                <input type="checkbox" id="myCheckSecond">
+                                <label for="accounting">Rental of a payment terminal
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calcDivContainer">
+                <div class="calcDiv">
+                    <p>Orders</p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="calcDiv2">
+                    <p>Products</p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="calcDiv3">
+                    <p>Package</p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="calcDiv4">
+                    <p>Accounting</p>
+                    <p>$35</p>
+                </div>
+                <div class="calcDiv5">
+                    <p>Terminal</p>
+                    <p>$5</p>
+                </div>
+                <div class="total">
+                    <p>Total</p>
+                    <p>$0</p>
+                </div>
+            </div>
+            
+            </form>
+        </article>
+    </section>
+    <section class="contact container">
+        <article class="contact-boxes">
+            <h8>Any questions?</h8>
+            <p>Leave your address or call us</p>
+            <article class="contact-boxes-questions-text">
+                <p><i class="far fa-envelope"></i>
+                    info@bestshop.xyz</p>
+                <p><i class="fas fa-phone-square-alt"></i>
+                    123 456 789</p>
+            </article>
+        </article>
+        <article class="contact-form">
+            <form name="form">
+                <article class="contact-form-first">
+                    <label>Name</label><br>
+                    <input type="text" id="name"><br>
+                    <label>email</label><br>
+                    <input type="text" id="email"><br>
+                </article>
+                <label class="checkboxContainer">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label style="margin-left: 30px">tekstem stosowanym jako przykładowy wypełniacz<br> w przemyśle
+                    poligraficznym. Został po raz pierwszy użyty<br> w XV w.przez nieznanego drukarza do wypełnienia
+                    tekstem<br> próbnej książki. Pięć wieków później zaczął być używany<br> przemyśle elektronicznym,
+                    pozostając praktycznie niezmienionym.jest</label>
+            </form>
+            <button>Send</button>
+        </article>
+    </section>
 </body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="../Warsztaty01/script.js"></script>
 
 </html>
