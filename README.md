@@ -1,1 +1,5 @@
-# HTML-i-CSS-Warsztat
+Prosty Landing Page napisany w jQuery.
+
+### PREZENTACJA KALKULATORA
+
+
